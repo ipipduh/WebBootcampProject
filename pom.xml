@@ -11,6 +11,7 @@
     <modules>
         <module>generic</module>
         <module>amazon</module>
+        <module>npr</module>
     </modules>
 
     <properties>
