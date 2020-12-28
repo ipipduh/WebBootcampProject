@@ -19,6 +19,9 @@
     <test name="Automation tests">
         <classes>
             <class name="com.cignatest.HomePageValidations"/>
+            <class name="com.cignatest.SignInValidations"/>
+            <class name="com.cignatest.MemberResourcesValidations"/>
+            <class name="com.cignatest.MedicarePageValidations"/>
         </classes>
     </test>
 </suite>
