@@ -31,4 +31,20 @@ public class HomePageValidations extends TestBase {
         homePage.userArticleAccess();
         homePage.validateLogoOnArticlePage();
     }
+
+    @Test(enabled = false)
+    public void validateUserCanHoverAndSelectFromDropdown() {
+        homePage.hoverOverNews();
+        homePage.selectFromDropdown();
+        homePage.validateNationalPage();
+    }
+
+    @Test(enabled = false)
+    public void validateUserCanNavigateBackToHomePage() {
+        homePage.hoverOverNews();
+        homePage.selectFromDropdown();
+        homePage.validateNationalPage();
+        homePage.userCanNavigateBack();
+        homePage.validateNprHomePage();
+    }
 }

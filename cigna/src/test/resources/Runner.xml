@@ -9,7 +9,7 @@
     <parameter name="platform" value="windows"/>
 
     <parameter name="browser" value="chrome"/>
-    <parameter name="url" value="https://www.npr.org/"/>
+    <parameter name="url" value="https://www.cigna.com/"/>
 
     <parameter name="cloud" value="false"/>
     <parameter name="envName" value="browsertstack"/>
@@ -18,11 +18,7 @@
 
     <test name="Automation tests">
         <classes>
-            <class name="com.nprtest.HomePageValidations"/>
-            <class name="com.nprtest.UserHomePageValidations"/>
-            <class name="com.nprtest.SignInPageValidations"/>
-            <class name="com.nprtest.SignOutPageValidations"/>
-            <class name="com.nprtest.SearchPageValidations"/>
+            <class name="com.cignatest.HomePageValidations"/>
         </classes>
     </test>
 </suite>

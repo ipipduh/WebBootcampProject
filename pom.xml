@@ -12,6 +12,7 @@
         <module>generic</module>
         <module>amazon</module>
         <module>npr</module>
+        <module>cigna</module>
     </modules>
 
     <properties>
