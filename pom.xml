@@ -14,6 +14,7 @@
         <module>npr</module>
         <module>cigna</module>
         <module>citibank</module>
+        <module>facebook</module>
     </modules>
 
     <properties>
