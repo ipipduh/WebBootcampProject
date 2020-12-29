@@ -13,6 +13,7 @@
         <module>amazon</module>
         <module>npr</module>
         <module>cigna</module>
+        <module>citibank</module>
     </modules>
 
     <properties>
